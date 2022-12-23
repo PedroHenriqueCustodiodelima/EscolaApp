@@ -24,5 +24,29 @@ namespace EscolaApp
         {
             InitializeComponent();
         }
+
+        private void Turma_Click(object sender, RoutedEventArgs e)
+        {
+            TurmaWindow w = new TurmaWindow();
+            w.ShowDialog();
+        }
+
+        private void Aluno_Click(object sender, RoutedEventArgs e)
+        {
+            AlunoWindow w = new AlunoWindow();
+            w.ShowDialog();
+        }
+
+        private void Matricular_Click(object sender, RoutedEventArgs e)
+        {
+            MatriculaWindow w = new MatriculaWindow();
+            w.ShowDialog();
+        }
+
+        private void Diario_Click(object sender, RoutedEventArgs e)
+        {
+            DiarioWindow w = new DiarioWindow();
+            w.ShowDialog();
+        }
     }
 }

@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="200" Width="300">
     <Grid>
+        <Button Content="Cadastro de Turmas" HorizontalAlignment="Left" Height="19" Margin="16,10,0,0" VerticalAlignment="Top" Width="127" Click="Turma_Click"/>
+        <Button Content="Cadastro de Alunos" HorizontalAlignment="Left" Height="19" Margin="16,38,0,0" VerticalAlignment="Top" Width="127" Click="Aluno_Click"/>
+        <Button Content="Matricular aluno" HorizontalAlignment="Left" Height="19" Margin="16,67,0,0" VerticalAlignment="Top" Width="127" Click="Matricular_Click"/>
+        <Button Content="Diário da turma" HorizontalAlignment="Left" Height="19" Margin="16,99,0,0" VerticalAlignment="Top" Width="127" Click="Diario_Click"/>
 
     </Grid>
 </Window>
